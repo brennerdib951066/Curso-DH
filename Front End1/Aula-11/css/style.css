@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+header{
+    background-color:  #00669F;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.Title{
+    font-weight: bold;
+    font-size: 48px;
+    background-color:#30699e21 ;
+    padding: 10px;
+    margin-bottom: 85px;
+    font-family: 'Roboto', sans-serif;
+}
+div {
+ display: inline-block;
+ border-radius: 24px;
+ background-color: #F3F3F3;;
+ width: 374px;
+ overflow: hidden;
+ 
+}
+main{
+    padding:36px;
+}
+.Card1 {
+    margin-left: 112px;
+    margin-right: 86px;
+}
+.Card2{
+    margin-right: 78px;
+}
+img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -400px;
+    left: 20px;
+}
+.Background-image{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.nAhKEsWWXmIWIbFDf7JgpgHaE6&pid=Api&P=0);
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    background-position: right;
+}
+.Portrail{
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    left: 10px;
+}
+h1{
+    margin-top: -130px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24px;
+}
+button{
+    display: block;
+    padding: 20px;
+    background-color: #00669F;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #E5E5E5;
+}
+.Background{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.r7Q7XqGoucIIhDiYhZK7zAHaEK&pid=Api&P=0);
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    background-position: left;
+}
+footer{
+    margin-top: 151px;
+    background-color: #00669F;
+    padding: 16px 0 16px 28px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
