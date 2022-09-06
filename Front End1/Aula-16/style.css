@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cadastro-form {
+    background-color: aliceblue;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+h1{
+   font-size: 24px; 
+}
+
+.input-login {
+    height: 25px;
+}
+
+.botao-logar {
+    background-color: aquamarine;
+    height: 48px;
+}
+
+body {
+    
+
+}
+
+.controlador {
+    display: flex;
+flex-direction: column;
+gap: 4px;
+}
