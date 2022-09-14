@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>Frangão PAY</header>
 
-    <form class="cadastro-form action="">
-        
+    <form class="formulario-cadastro">
+
         <div class="controlador">
-            <h1>Login</h1>
+            <img class="image-login" src="https://tse2.mm.bing.net/th?id=OIP.TWqNHxY9FtYgIbIZeRcqXwHaEK&pid=Api&P=0" alt="">
+            <h2>LOGIN</h2>
             <label for="email">Email</label>
-            <input class="input-login" 
-            type="email" 
-            id="email" 
-            minlength="6" 
-            maxlength="20" 
-            required>
+            <input
+                type="text"
+                id="nomeCompleto"
+                minlength="6"
+                maxlength="12"
+                required
+            >
         </div>
-        
-            <div class="controlador">
-                <label for="Senha">Senha</label>
-                <input class="input-login" 
-                type="password" 
-                id="Senha" 
-                minlength="6" 
-                maxlength="20" 
-                required>
-                 
-            </div>
-            <button class="botao-logar" type="submit">Logar</button>
-           
+
+        <div class="controlador">
+            <label for="senha">Senha</label>
+            <input
+                type="password"
+                minlength="8"
+                id="senha"
+                required
+            >
+        </div>
+
+        <button class="logar" type="reset">Logar</button>
+
+        <button class="cadastrar" type="reset">Cadastrar</button>
+
     </form>
-  
+<footer>Todos Os Direitos Resevardos</footer>
 </body>
 </html>
