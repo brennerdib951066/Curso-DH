@@ -1,0 +1,121 @@
+
+
+.navbar-custom {
+    background-color: rgb(2, 13, 40);
+}
+
+.navbar-custom a {
+    color: white;
+}
+
+.navbar-custom a:hover {    
+    color: rgb(244, 131, 10);
+}
+
+.toggler-custom {    
+    background-color: rgb(244, 131, 10);
+}
+
+.navbar-custom .navbar-nav-custom {
+    width: 100%;
+    justify-content: end;
+    padding-right: 12px;
+}
+
+
+/* Main */
+
+
+.main-content .welcome {
+    min-height: 100vh;
+    display: flex;        
+    justify-content: center;    
+    align-items: center;
+}
+
+section#img01 {
+    background-image: url(https://github.com/rexpires/ctd-front-end-1/blob/main/checkpoint-2/imagens/Banner4%20Checkpoint%202%20-%201300x600%20px.png?raw=true);    
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+.main-content .order-button {
+    background-color:rgb(68, 242, 33);
+    position: relative;
+    bottom: -50px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.main-content .section-title {
+    padding: 60px 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.products .row-custom {
+    justify-content: center;
+}
+
+.card .card-custom {
+    max-height: 351px;
+}
+
+.card .body-custom {
+    
+}
+
+.card .body-custom2 {
+    
+}
+
+
+/* Rodapé */
+
+footer {
+    flex: 1;
+    background-color: #171717;
+    font-family: sans-serif;
+  }
+  
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+  }
+  
+  .footer-menu p,i {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .footer-names {
+    padding: 10px 0;
+  }
+
+    
+  .icons img {
+    margin-right: 8px;
+  }
+  
+  .footer-msg p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+  
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .active {
+    color: #e51b3e !important;
+    cursor: default;
+  }
+
